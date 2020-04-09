@@ -32,8 +32,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="bnr-agileinfo">
 			<div class="banner-top w3layouts">
 				<div class="container">  
-					<p><span class="glyphicon glyphicon-earphone"></span> +213 (DZ)  0559058884</p>
-					<p><span class="glyphicon glyphicon-earphone"></span> +213 (DZ)  0542325629</p>
+					<p> <span class="glyphicon glyphicon-earphone"></span> +213 (DZ)  0559058884</p>
+					<p> <span class="glyphicon glyphicon-earphone"></span> +213 (DZ)  0542325629</p>
 				</div>
 			</div>
 			<div class="banner-w3text w3layouts">
@@ -56,7 +56,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								
 								<li><a href="{{url_for('index')}}" class="active">Accueil</a></li>
 								<li><a href="{{url_for('about')}}">À propos</a></li> 
-								<li><a href="{{url_for('category')}}">Catégorie</a></li>
+								<li><a href="{{url_for('category')}}">Catégories</a></li>
 								<li><a href="{{url_for('gallery')}}">Galerie</a></li>
 								<li><a href="{{url_for('contact')}}">Contact</a></li>
 								<li><a href="{{ url_for('login') }}">Login</a></li>
@@ -91,18 +91,41 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div> 
 				<div class="clearfix"> </div>
 			</div>
-			<div class="welcome-w3lsrow2"> 
-				<div class="col-sm-3 col-xs-3 w3welcome-grids"> 
-					<img src="images/img2.jpg" class="img-responsive" style="height: 376.3px;" alt=""/>
-				</div>
-				<div class="col-sm-3 col-xs-3 w3welcome-grids"> 
-					<img src="images/img3.jpg" class="img-responsive" style="height: 376.33px;" alt=""/>
-				</div>
-				<div class="col-sm-3 col-xs-3 w3welcome-grids"> 
-					<img src="images/img4.jpg" class="img-responsive" style="height: 376.33px;" alt=""/>
-				</div>
-				<div class="col-sm-3 col-xs-3 w3welcome-grids"> 
-					<img src="images/img5.jpg" class="img-responsive" style="height: 376.33px;" alt=""/>
+
+
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="images/pjimage.jpg" alt="Robes de Soiree">
+    </div>
+
+    <div class="item">
+      <img src="images\pjimage1.jpg" alt="Robes de soiree">
+    </div>
+
+    <div class="item">
+      <img src="images\pjimage2.jpg" alt="Robes Blanches">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
@@ -157,6 +180,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<li><a href="{{ url_for('login')}}">Login</a></li>
 				</ul>
 			</div>
+			<p>Trouvez nous sur votre Social Media!</p>
+			<br>
 			<div class="w3lsfoter-icons social-icon">
 				<a href="#" class="social-button twitter"><i class="fa fa-twitter"></i></a>
 				<a href="#" class="social-button facebook"><i class="fa fa-facebook"></i></a> 

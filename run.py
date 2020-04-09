@@ -23,15 +23,15 @@ app.config['SESSION_TYPE'] = 'filesystem'
 app.config['SECRET_KEY'] = 'super secret key'
 app.config['MAIL_SERVER']='smtp.googlemail.com'
 app.config['MAIL_PORT'] = 587
-app.config['MAIL_USERNAME'] = 'djamel.sbar@gmail.com'
-app.config['MAIL_PASSWORD'] = '******'
+app.config['MAIL_USERNAME'] = 'KB.Affrah@gmail.com'
+app.config['MAIL_PASSWORD'] = 'Soumeyabch'
 app.config['MAIL_USE_TLS'] = True
 app.config['MAIL_USE_SSL'] = False
 app.config['UPLOADED_IMAGES_DEST'] = 'templates/images/'
 app.config['UPLOADED_IMAGES_URL'] = 'templates/images/'
 
-admin_emai='djamelsbargoud'
-admin_password='jesuisadmin'
+admin_emai='Soumeya01'
+admin_password='Soumeya01'
 
 mail = Mail()
 mail.init_app(app)

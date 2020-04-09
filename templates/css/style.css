@@ -920,11 +920,16 @@ li.list-group-item1 {
 	line-height: 2em;
 	border: 10px solid #f0f0f0;
 }
+
+.myCarousel {
+img-align: center;
+}
 .show-grid [class*="col-"]:hover {
 	background: #e0e0e0;
 }
 .grid_3{
 	margin-bottom:3em;
+    ;
 }
 .xs h3, h3.m_1{
 	color:#000;
